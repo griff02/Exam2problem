@@ -4,7 +4,7 @@ xmlns:gap   = "http://phonegap.com/ns/1.0"
 id          = "edu.uab.business.studentapp"
 version     = "0.0.1" ><!--versionCode is optional and Android only -->
 
-<name>Assignment 6 Justin Griffis</name>
+<name>Exam 2 Problem Justin Griffis</name>
 <description>Exam 2 Problem</description>
 <author>Justin Griffis</author>
 
