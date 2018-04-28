@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exam 2 Problem</title>
+<link rel="stylesheet" type="text/css" href="styles/Exam2.css" />
+<script src="js/Exam2.js"></script>
+
+
+
+<body>
+<h1>Exam 2</h1>
+<hr>
+    <select onchange="MenuChoice();" id="menu">
+            <option>Choose an option</option>
+            <option>Category List</option>
+            <option>Add Product</option>
+            <option>Change Description</option>
+            <option>Delete Category</option>
+            <option>About Me</option>
+            
+    </select>
+
+    <section id="section1" class="display1">
+        <h2>Category List</h2>
+        <hr>
+        <br>
+        <label>Display category list </label>
+        <br>
+        <button onclick="ListCatelog();" id="listcat">Get Catelog List</button>
+        <br>
+        <hr>
+        <br>
+        <label id="result">The operation's result will display here.</label>
+    </section>
+    
+        
+    <section id="section2" class="display2">
+        <h2>Add Product </h2>
+        <hr>
+        <br>
+        <label>Please enter the Category Name: </label>
+        <input type="text" id="catname">
+        <br>
+        <label>Please enter the Category Description:</label>
+        <input type="text" id="catdes">
+        <br>
+        <button onclick="AddCategory();" id="newcat">Add a New Category</button>
+        <br>
+        <hr>
+        <br>
+        <label id="result2">The operation's result will display here.</label>
+    </section>
+
+    </section>
+    
+    <section id="section3" class="display3">
+        <h2>Change Description for Category</h2>
+        <hr>
+        <br>
+        <label>Please Enter the Category ID: </label>
+        <input type="text" id="catID">
+        <br>
+        <label>Please Enter the Category Description: </label>
+        <input type="text" id="catdes2">
+        <br>
+        <button onclick="UpdateDescription();" id="updatecat">Update Catelog Information:</button>
+        <br>
+        <hr>
+        <br>
+        <label id="result3">The operation's result will display here.</label>
+    </section>
+    
+    
+    <section id="section4" class="display4">
+        <h2>Delete Category</h2>
+        <hr>
+        <br>
+        <label>Please Enter a Category ID: </label>
+        <input type="text" id="deletecatid">
+        <label class="attention1"> The category ID must exist in the database.</label>
+        <br>
+        <button onclick="DeleteCategory();" id="deletecat">Delete Existing Category from Database:</button>
+        <br>
+        <hr>
+        <br>
+        <label id="result4">The operation's result will display here.</label>
+    </section>
+    
+     <section id="section5" class="display5">
+        <h2>About Me: Justin Griffis</h2>
+        <hr>
+        <br>
+        <label>Hello, I am from Birmingham Alabama, born and raised. Have spent my entire life here although I love to travel. I have been to 3 different places outside of the country including Punta Cana, St. Martin, and the Bahamas. I am also a double major in both Business Management and Information Systems. I will graduate in the Fall of 2018, and look forward to it tremendously!</label>
+        
+</body>
+
+</html>

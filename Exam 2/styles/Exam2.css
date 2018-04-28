@@ -1,0 +1,13 @@
+.attention1 {font-style: italic; color: red}
+
+#section1 {background-color: #ccf2ff; visibility: hidden;}
+#section2 {background-color: #ffccfe; visibility: hidden;}
+#section3 {background-color: #17ea8b; visibility: hidden;}
+#section4 {background-color: #ffff00; visibility: hidden;} 
+#section5 {background-color: #00ced1; visibility: hidden;} 
+
+#section1 {position: absolute; top:150px;border:solid; width: 600px}
+#section2 {position: absolute; top:150px;border:solid; width: 600px}
+#section3 {position: absolute; top:150px;border: solid; width: 600px}
+#section4 {position: absolute; top:150px;border: solid; width: 600px}
+#section5 {position: absolute; top:150px;border: solid; width: 600px}
